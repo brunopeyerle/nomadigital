@@ -89,13 +89,13 @@ body.dark-mode button {
 .video-gallery {
     display: flex;
     flex-wrap: wrap;
-    gap: 0; /* Remove espaços entre os vídeos */
+    gap: 10px; /* Adicione um pequeno espaçamento entre os vídeos */
     margin: 0; /* Remove margem da galeria */
     padding: 0; /* Remove padding da galeria */
 }
 
 .video-card {
-    flex: 1 1 calc(50% - 10px); /* Ajusta a largura dos vídeos para formar uma grade de duas colunas */
+    flex: 1 1 calc(100% - 20px); /* Ajusta a largura dos vídeos para ocupar toda a largura da tela */
     box-sizing: border-box;
     margin: 0;
     padding: 0;

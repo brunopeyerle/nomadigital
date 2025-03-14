@@ -79,3 +79,25 @@ body.dark-mode .card {
 body.dark-mode button {
     background-color: #6c757d;
 }
+
+/* Galeria de vídeos em forma de grade */
+.video-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0; /* Remove espaços entre os vídeos */
+    margin: 0; /* Remove margem da galeria */
+    padding: 0; /* Remove padding da galeria */
+}
+
+.video-card {
+    flex: 1 1 calc(33.333% - 10px); /* Ajusta a largura dos vídeos para formar uma grade */
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.video-card video {
+    width: 100%;
+    height: auto;
+    display: block;
+}
